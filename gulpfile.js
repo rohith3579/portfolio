@@ -19,13 +19,13 @@ var paths = {
         www:        './public_html'
     },
     src: {
-        root:       'public_html/assets',
+        root:       'public_html/',
         html:       'public_html/**/*.html',
-        css:        'public_html/assets/css/*.css',
-        js:         'public_html/assets/js/*.js',
-        vendors:    'public_html/assets/vendors/**/*.*',
-        imgs:       'public_html/assets/imgs/**/*.+(png|jpg|gif|svg)',
-        scss:       'public_html/assets/scss/**/*.scss'
+        css:        'public_html/css/*.css',
+        js:         'public_html/js/*.js',
+        vendors:    'public_html/vendors/**/*.*',
+        imgs:       'public_html/imgs/**/*.+(png|jpg|gif|svg)',
+        scss:       'public_html/scss/**/*.scss'
     },
     dist: {
         root:       'public_html/dist',
